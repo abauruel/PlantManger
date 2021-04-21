@@ -28,7 +28,6 @@ export function UserIdentification() {
     setIsFocused(true)
   }
   function handleInputChange(value: string) {
-    console.log(value)
     setIsFilled(!!value)
     setName(value)
   }
